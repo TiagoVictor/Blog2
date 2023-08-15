@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace Blog2.Models
 {
     public class User
