@@ -14,7 +14,7 @@ namespace Blog2.Controllers
     public class CategoryController : ControllerBase
     {
         [HttpGet("categories")]
-        public async Task<IActionResult> GetAsync(
+        public IActionResult GetAsync(
             [FromServices] IMemoryCache cache,
             [FromServices] BlogDataContext context)
         {
